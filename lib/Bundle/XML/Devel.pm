@@ -3,7 +3,7 @@ package Bundle::XML::Devel;
 use strict;
 use warnings;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 
 1;
@@ -48,7 +48,7 @@ XSLoader
 
 threads
 
-threads-shared
+threads::shared
 
 XML::SAX
 
@@ -117,8 +117,6 @@ XML::Simple::DTDReader
 Class::MakeMethods
 
 Inline::C
-
-Video::OpenQuicktime
 
 MP3::Info
 
